@@ -1,0 +1,78 @@
+.header-name{
+    color: rgb(255, 115, 0);
+    font-size: 25px;
+    float: left;
+    margin-left: 8px;
+    
+}
+
+.header{
+    border-top: 1px solid darkslategray;
+    box-shadow: 0px 3px 15px #bee4ee;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Comic Sans MS;
+    height: 40px;
+}
+
+.header-input{
+    float: left;
+    margin-top: 8px;
+    display: table;
+    padding-left: 27%;
+}
+
+.header-input .fas.fa-microphone{
+    padding-left: 8px;
+    color: rgba(170, 170, 170, 0.877);
+}
+
+.header-input .fas.fa-microphone:hover{
+    color: rgba(70, 67, 67, 0.877);
+    cursor: pointer;
+}
+
+.header-notifications .fas.fa-paw:hover{
+    color: rgba(70, 67, 67, 0.877);
+    cursor: pointer;
+}
+
+.header-notifications{
+    float: right;
+    color: rgba(170, 170, 170, 0.877);
+    margin-top: 8px;
+    margin-right: 20px;
+}
+
+.header-notifications button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(240, 150, 90);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 0.2px solid rgb(0, 0, 0);
+}
+
+.header-notifications:hover button{
+    background-color: rgb(40, 145, 54);
+    cursor: pointer;
+}
+
+.header-notification-content{
+    display: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    width: 100px;
+    position: absolute;
+    padding-left: 5px;
+    right: 5px;
+}
+
+.header-notification-content p:hover{
+    background-color: rgb(185, 184, 184);
+    cursor: pointer;
+}
+
+.header-notifications:hover .header-notification-content{
+    display: block;
+}
