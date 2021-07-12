@@ -32,7 +32,7 @@
     cursor: pointer;
 }
 
-.header-notifications .fas.fa-paw:hover{
+.header-notifications .fas.fa-envelope:hover{
     color: rgba(70, 67, 67, 0.877);
     cursor: pointer;
 }
@@ -53,7 +53,7 @@
     border: 0.2px solid rgb(0, 0, 0);
 }
 
-.header-notifications:hover button{
+.header-notifications button:hover {
     background-color: rgb(40, 145, 54);
     cursor: pointer;
 }
@@ -73,6 +73,14 @@
     cursor: pointer;
 }
 
-.header-notifications:hover .header-notification-content{
+.header-notification-details:hover .header-notification-content{
     display: block;
+}
+
+.header-notification-value, .header-notification-details{
+    float:left;
+}
+
+.header-notification-value{
+    margin-right: 10px;
 }
