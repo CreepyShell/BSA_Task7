@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html  lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Title</title>
         <link rel="stylesheet" type="text/css" href="headerStyles.css">
         <link rel="stylesheet" type="text/css" href="asideStyles.css">
-        <link rel="stylesheet" type="text/css" href="mainStyles.css">
+        <link rel="stylesheet" type="text/css" href="mainCategoryStyles.css">
+        <link rel="stylesheet" type="text/css" href="mainVideosStyles.css">
+        <link rel="stylesheet" type="text/css" href="mainFooterStyles.css">
         <script src="https://kit.fontawesome.com/35acc3d60d.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header class="header">
-            <div class="header-name">
-                <i class="fas fa-cat"></i>
-                <p1>Bulka TV</p1>
+            <div class="header-name">             
+                <span><i class="fas fa-cat"></i> Bulka TV</span>
             </div>
             <div class="header-input">
-                <input type="text" size="" name="firstname"  placeholder="search...">
+                <input type="text" name="firstname"  placeholder="search...">
                 <button type="submit"><i class="fa fa-search"></i></button>
                 <i class="fas fa-microphone"></i>
             </div>
@@ -36,32 +37,39 @@
         <aside class="aside-panel">
             <div class="aside-panel-strimers">
                 <div class="aside-panel-strimer-info">
-                    <img class="svg-img" src="./icons/cat.svg"alt="ava" style="margin-right: 5px;">
+                    <img class="svg-img" src="./icons/cat.svg" alt="ava" style="margin-right: 5px;">
                     <p class="names">Chu-Chu</p> 
                     <span class="dot"></span>
                     <p class="viewers">2.3M</p>                
                 </div>
                 <div class="aside-panel-strimer-info">
-                    <img class="svg-img" src="./icons/cat1.svg"alt="ava" style="margin-right: 5px;">
+                    <img class="svg-img" src="./icons/cat1.svg" alt="ava" style="margin-right: 5px;">
                     <p class="names">Alex</p> 
                     <p class="viewers">0.7M</p>                
                 </div>
                 <div class="aside-panel-strimer-info">
-                    <img class="svg-img" src="./icons/cat2.svg"alt="ava" style="margin-right: 5px;">
-                    <p class="names"">Ostin</p> 
+                    <img class="svg-img" src="./icons/cat2.svg" alt="ava" style="margin-right: 5px;">
+                    <p class="names">Ostin</p> 
                     <span class="dot"></span>
                     <p class="viewers">994k</p>                
                 </div>
                 <div class="aside-panel-strimer-info">
-                    <img class="svg-img" src="./icons/cat3.svg"alt="ava" style="margin-right: 5px;">
+                    <img class="svg-img" src="./icons/cat3.svg" alt="ava" style="margin-right: 5px;">
                     <p class="names">Lu</p> 
                     <span class="dot"></span>
                     <p class="viewers">13M</p>                
-                </div><div class="aside-panel-strimer-info">
-                    <img class="svg-img" src="./icons/cat4.svg"alt="ava" style="margin-right: 5px;">
+                </div>
+                <div class="aside-panel-strimer-info">
+                    <img class="svg-img" src="./icons/cat4.svg" alt="ava" style="margin-right: 5px;">
                     <p class="names">Obama</p> 
                     <span class="dot"></span>
                     <p class="viewers">2M</p>                
+                </div>
+                <div class="aside-panel-strimer-info">
+                    <img class="svg-img" src="./icons/chivas.svg" alt="ava" style="margin-right: 5px;">
+                    <p class="names">Chivas</p> 
+                    <span class="dot"></span>
+                    <p class="viewers">200M</p>                
                 </div>
             </div>      
             <div class="aside-panel-information-block">
@@ -102,12 +110,100 @@
             </div>
             <div class="main-panel-videos">
                 <div class="main-panel-video">
-
+                    <div class="wrapper-video">
+                        <h2 class="live">LIVE</h2>
+                        <img class="preview-image" src="images/chivas.png" alt="preview">
+                        <p class="video-viewers">25.5k is watching now</p>
+                    </div>
+                    <div class="video-information">
+                        <img class="svg-img" src="./icons/chivas.svg" alt="ava">
+                        <div class="video-title"><h3>I was sleeping all day and it...</h3></div>
+                        <i class="fas fa-ellipsis-v"></i>
+                        <p class="video-author">Chivas</p>
+                    </div>
+                </div>
+                <div class="main-panel-video">
+                    <div class="wrapper-video">
+                        <img class="preview-image" src="images/preview1.png" alt="preview">
+                        <p class="video-viewers">29:32</p>
+                    </div>
+                    <div class="video-information">
+                        <img class="svg-img" src="./icons/cat1.svg" alt="ava">
+                        <div class="video-title"><h3>Try to catch a mouse! Can...</h3></div>
+                        <i class="fas fa-ellipsis-v"></i>
+                        <p class="video-author">Alex</p>
+                    </div>
+                </div>
+                <div class="main-panel-video">
+                    <div class="wrapper-video">
+                        <h2 class="live">LIVE</h2>
+                        <img class="preview-image" src="images/preview2.png" alt="preview">
+                        <p class="video-viewers">25.5k is watching now</p>
+                    </div>
+                    <div class="video-information">
+                        <img class="svg-img" src="./icons/cat2.svg" alt="ava">
+                        <div class="video-title">
+                            <h3>Stolen the food!</h3>
+                        </div>
+                        <i class="fas fa-ellipsis-v"></i>
+                        <p class="video-author">Ostin</p>
+                    </div>
+                </div>
+                <div class="main-panel-video">
+                    <div class="wrapper-video">
+                        <h2 class="live">LIVE</h2>
+                        <img class="preview-image" src="images/preview3.png" alt="preview">
+                        <p class="video-viewers">25.5k is watching now</p>
+                    </div>
+                    <div class="video-information">
+                        <img class="svg-img" src="./icons/cat3.svg" alt="ava">
+                        <div class="video-title"><h3>What`s an intresting chair...</h3></div>
+                        <i class="fas fa-ellipsis-v"></i>
+                        <p class="video-author">Lu</p>
+                    </div>
+                </div>
+                <div class="main-panel-video">
+                    <div class="wrapper-video">
+                        <h2 class="live">LIVE</h2>
+                        <img class="preview-image" src="images/preview4.png" alt="preview">
+                        <p class="video-viewers">25.5k is watching now</p>
+                    </div>
+                    <div class="video-information">
+                        <img class="svg-img" src="./icons/cat4.svg" alt="ava">
+                        <div class="video-title"><h3>Tasting expensive cheese</h3></div>
+                        <i class="fas fa-ellipsis-v"></i>
+                        <p class="video-author">Obama</p>
+                    </div>
+                </div>
+                <div class="main-panel-video">
+                    <div class="wrapper-video">
+                        <img class="preview-image" src="images/preview5.png" alt="preview">
+                        <p class="video-viewers">12:45:90</p>
+                    </div>
+                    <div class="video-information">
+                        <img class="svg-img" src="./icons/cat5.svg" alt="ava">
+                        <div class="video-title"><h3>Wait when unbanned on Twitt</h3></div>
+                        <i class="fas fa-ellipsis-v"></i>
+                        <p class="video-author">Trump</p>
+                    </div>
+                </div>
+                <div class="main-panel-video">
+                    <div class="wrapper-video">
+                        <h2 class="live">LIVE</h2>
+                        <img class="preview-image" src="images/preview6.png" alt="preview">
+                        <p class="video-viewers">25.5k is watching now</p>
+                    </div>
+                    <div class="video-information">
+                        <img class="svg-img" src="./icons/cat.svg" alt="ava">
+                        <div class="video-title"><h3>Learning to catch mice</h3></div>
+                        <i class="fas fa-ellipsis-v"></i>
+                        <p class="video-author">Chu-Chu</p>
+                    </div>
                 </div>
             </div>
+            <footer>
+                <h4>Inspired by beautifull cats  <i class="fas fa-paw"></i></h4>
+            </footer>
         </main>
-        <footer>
-
-        </footer>
     </body>
 </html>

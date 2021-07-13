@@ -12,8 +12,7 @@
     color: rgb(255, 115, 0);
     font-size: 25px;
     float: left;
-    margin-left: 8px;
-    
+    margin-left: 8px; 
 }
 
 .header-input{
@@ -69,6 +68,7 @@
     padding-left: 5px;
     right: 5px;
     background-color: white;
+    z-index: 1;
 }
 
 .header-notification-content p:hover{
