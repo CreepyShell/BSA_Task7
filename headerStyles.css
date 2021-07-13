@@ -1,3 +1,8 @@
+body{
+    background: linear-gradient( rgba(247, 248, 245, 0.8), rgba(180, 198, 214, 0.5) );
+    z-index: -4;
+}
+
 .header{
     border-top: 1px solid darkslategray;
     box-shadow: 0px 3px 15px #bee4ee;
@@ -5,8 +10,8 @@
     padding-bottom: 5px;
     font-family: Comic Sans MS;
     height: 40px;
+    background: linear-gradient( rgba(238, 241, 234, 0.8), rgba(178, 209, 236, 0.5) );
 }
-
 
 .header-name{
     color: rgb(255, 115, 0);
@@ -20,6 +25,17 @@
     margin-top: 8px;
     display: table;
     padding-left: 27%;
+}
+
+.header-input .fa.fa-search:hover{
+    cursor: pointer;
+    color: rgb(71, 71, 71);
+}
+
+.header-input input, .header-input button{
+    border:0px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background: linear-gradient( rgba(238, 241, 234, 0.8), rgba(153, 193, 229, 0.5) );
 }
 
 .header-input .fas.fa-microphone{

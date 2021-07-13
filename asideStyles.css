@@ -46,10 +46,12 @@
     font-size: small;
     font-family: Lucida Calligraphy;
     margin-top: 8px;
-    background-color: rgb(226, 226, 226);
+    background: linear-gradient(rgb(237, 253, 255), rgb(234, 239, 250));
+    box-shadow: 0px 1px 7px #94c6d3;
     width: 180px;
     height: 370px;
     overflow: auto;
+    border-radius:5px;
 }
 
 .aside-panel-strimer-info{
@@ -75,12 +77,14 @@
     max-width: 180px;
     max-height: 150px;
     display: flex;
-    background-color: rgb(226, 226, 226);
     padding: 10px;
+    background: linear-gradient(rgb(237, 253, 255), rgb(234, 239, 250));
+    box-shadow: 0px 1px 7px #94c6d3;
+    border-radius:5px;
 }
 
 .aside-panel-information-block-context{
-    background-color: rgb(214, 202, 202);
+    background-color: rgb(203, 225, 240);
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 15px;

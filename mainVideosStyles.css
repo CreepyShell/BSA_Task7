@@ -11,6 +11,13 @@
     max-height:160px;
   }
 
+.play{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    opacity: 0;
+}
+
 .live{
     height:20px;
     width:50px;
@@ -38,6 +45,14 @@
 .main-panel-video:hover{
     background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(92, 92, 92, 0.5) );
     cursor: pointer;
+}
+
+.main-panel-video:hover .play{
+    opacity:1;
+}
+
+.main-panel-video:hover .preview-image{
+    opacity:0.7;
 }
 
 .video-viewers{
