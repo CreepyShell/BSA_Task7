@@ -1,0 +1,24 @@
+.main-panel{
+    float: left;
+    width: calc(100% - 200px);
+}
+
+.main-panel-categories{
+    overflow: auto;
+    white-space: nowrap;
+    margin:8px;
+}
+
+.main-panel-categories p {
+    display: inline-block;
+    color: white;
+    background-color: rgb(216, 212, 212);
+    text-align: center;
+    padding: 5px;
+    border-radius: 40%;
+  }
+
+.main-panel-categories p:hover{
+    cursor: pointer;
+    background-color: rgb(182, 177, 177);
+}
